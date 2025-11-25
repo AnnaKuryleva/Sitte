@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оператор информационных систем и ресурсов</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">вверх</a>
+            <ul class="nav-menu">
+                <li><a href="#hero">Главная</a></li>
+                <li class="nav-dropdown">
+                    <a href="#about">Информация <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about">О профессии</a></li>
+                        <li><a href="#quote">Цитата о информации</a></li>
+                        <li><a href="#information-growth">Рост информации</a></li>
+                        <li><a href="#relevance">Актуальность профессии</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="#skills">Базы данных <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#skills">Навыки специалиста</a></li>
+                        <li><a href="#databases-intro">Введение в БД</a></li>
+                        <li><a href="#relational">Реляционные БД</a></li>
+                        <li><a href="#non-relational">Нереляционные БД</a></li>
+                        <li><a href="#dbms">СУБД</a></li>
+                    </ul>
+                </li>
+                <li class="nav-dropdown">
+                    <a href="#uiux-intro">UI/UX <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#uiux-intro">UI/UX дизайн</a></li>
+                        <li><a href="#uiux-details">UI и UX</a></li>
+                        <li><a href="#uiux-tools">Инструменты UI/UX</a></li>
+                        <li><a href="#conclusion">Заключение</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Секция 1: Герой -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Оператор информационных систем и ресурсов</h1>
+            <p class="hero-subtitle">— это специалист в области информационных технологий</p>
+            <div class="hero-author">Курылёва А. Э.</div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <!-- Анимированные элементы по теме -->
+        <div class="hero-animations">
+            <div class="data-icon icon-1">📊</div>
+            <div class="data-icon icon-2">💾</div>
+            <div class="data-icon icon-3">🗄️</div>
+            <div class="data-icon icon-4">🌐</div>
+            <div class="data-icon icon-5">⚡</div>
+            <div class="data-icon icon-6">🔗</div>
+            <div class="data-line line-1"></div>
+            <div class="data-line line-2"></div>
+            <div class="data-line line-3"></div>
+            <div class="data-node node-1"></div>
+            <div class="data-node node-2"></div>
+            <div class="data-node node-3"></div>
+            <div class="data-node node-4"></div>
+        </div>
+    </section>
+
+    <!-- Секция 2: О профессии -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">О профессии</h2>
+                <p class="section-text">
+                    Оператор информационных систем и ресурсов — это специалист в области информационных технологий, 
+                    который занимается подготовкой, обработкой и размещением информации.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 3: Навыки -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Навыки специалиста</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📝</div>
+                    <h3 class="skill-title">Обработка информации</h3>
+                    <p class="skill-description">Владеет навыками обработки текстово-цифровой информации</p>
+                    <ul class="skill-details">
+                        <li>Работа с текстовыми документами</li>
+                        <li>Обработка табличных данных</li>
+                        <li>Структурирование информации</li>
+                        <li>Конвертация форматов данных</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-title">Прикладные программы</h3>
+                    <p class="skill-description">Умеет работать с пакетами прикладных программ</p>
+                    <ul class="skill-details">
+                        <li>Офисные пакеты (MS Office, LibreOffice)</li>
+                        <li>Графические редакторы</li>
+                        <li>Системы автоматизации</li>
+                        <li>Специализированное ПО</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🏗️</div>
+                    <h3 class="skill-title">Автоматизированные системы</h3>
+                    <p class="skill-description">Обладает основами построения автоматизированных информационных систем</p>
+                    <ul class="skill-details">
+                        <li>Проектирование архитектуры</li>
+                        <li>Интеграция компонентов</li>
+                        <li>Оптимизация процессов</li>
+                        <li>Тестирование систем</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3 class="skill-title">Базы данных</h3>
+                    <p class="skill-description">Умеет работать с системами баз данных</p>
+                    <ul class="skill-details">
+                        <li>SQL и NoSQL базы данных</li>
+                        <li>Проектирование схем</li>
+                        <li>Оптимизация запросов</li>
+                        <li>Резервное копирование</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3 class="skill-title">Веб-разработка</h3>
+                    <p class="skill-description">Имеет навыки проектирования и создания веб-сайтов</p>
+                    <ul class="skill-details">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Адаптивный дизайн</li>
+                        <li>UI/UX проектирование</li>
+                        <li>Веб-хостинг и развертывание</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3 class="skill-title">Анализ данных</h3>
+                    <p class="skill-description">Владеет навыками анализа и визуализации данных</p>
+                    <ul class="skill-details">
+                        <li>Обработка больших объемов данных</li>
+                        <li>Создание отчетов и дашбордов</li>
+                        <li>Статистический анализ</li>
+                        <li>Визуализация результатов</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 4: Актуальность -->
+    <section id="relevance" class="section relevance-section">
+        <div class="container">
+            <div class="relevance-content">
+                <h2 class="section-title">Актуальность профессии</h2>
+                <p class="relevance-text">
+                    Профессия включена в реестр приоритетных направлений подготовки РФ, открывает множество путей 
+                    для развития и трудоустройства и востребована везде, где требуется ввод, обработка, хранение 
+                    и публикация данных, а также поддержка работы компьютерных систем.
+                </p>
+                <p class="relevance-examples">
+                    Например в информационно-новостных порталах и IT компаниях, банках и др. учреждениях
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 5: Цитата -->
+    <section id="quote" class="section quote-section">
+        <div class="container">
+            <div class="quote-box">
+                <p class="quote-text">"Кто владеет информацией, тот владеет миром."</p>
+                <p class="quote-author">Н. Ротшильд</p>
+            </div>
+            <div class="quote-context">
+                <p>
+                    В настоящее время получение информации становится всё доступнее. Огромные объемы данных 
+                    проходят через обработку и структуризацию, чтобы достичь своего пользователя.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 6: Рост информации -->
+    <section id="information-growth" class="section growth-section">
+        <div class="container">
+            <h2 class="section-title">Рост объемов информации</h2>
+            <div class="growth-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1750</div>
+                    <h3 class="timeline-title">Первое удвоение</h3>
+                    <p>Произошло первое удвоение информации во всех сферах жизни человечества</p>
+                    <div class="timeline-details">
+                        <p>Период промышленной революции, начало массового книгопечатания, развитие науки и образования</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1900</div>
+                    <h3 class="timeline-title">Второе удвоение</h3>
+                    <p>Второй раз объем информации удвоился</p>
+                    <div class="timeline-details">
+                        <p>Эпоха электричества, телеграф, телефон, радио. Массовое распространение газет и журналов</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1950</div>
+                    <h3 class="timeline-title">Третье удвоение</h3>
+                    <p>Через 50 лет произошло третье удвоение</p>
+                    <div class="timeline-details">
+                        <p>Появление компьютеров, телевидения, начало информационной эры. Развитие вычислительной техники</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Сейчас</div>
+                    <h3 class="timeline-title">Экспоненциальный рост</h3>
+                    <p>Количество информации удваивается каждые 5, 10 лет</p>
+                    <div class="timeline-details">
+                        <p>Интернет, социальные сети, большие данные, искусственный интеллект. Цифровая трансформация всех сфер жизни</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 7: Структурированные хранилища -->
+    <section id="storage" class="section storage-section">
+        <div class="container">
+            <div class="storage-content">
+                <h2 class="section-title">Структурированные электронные хранилища</h2>
+                <p class="storage-text">
+                    Быстрое наращивание объемов мировой информации требует структурированных электронных хранилищ, 
+                    предназначенных для удобного хранения, организации и управления данными.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 8: Введение в БД -->
+    <section id="databases-intro" class="section db-intro-section">
+        <div class="container">
+            <h2 class="section-title">Базы данных</h2>
+            <p class="intro-text">
+                Такими хранилищами выступают БД - базы данных. Выбор конкретного типа зависит от задач и структуры 
+                данных, которые нужно хранить и обрабатывать.
+            </p>
+            <p class="intro-text">
+                Реляционные и нереляционные базы данных — это два основных типа систем для хранения данных, 
+                различающиеся по структуре, языкам запросов и способам обработки данных.
+            </p>
+        </div>
+    </section>
+
+    <!-- Секция 9: Реляционные БД -->
+    <section id="relational" class="section relational-section">
+        <div class="container">
+            <h2 class="section-title">Реляционные базы данных</h2>
+            <div class="db-type-card">
+                <div class="db-type-header">
+                    <span class="db-checkmark">✓</span>
+                    <h3>SQL (Реляционные БД)</h3>
+                </div>
+                <p class="db-description">
+                    Таблицы со строгой структурой и язык SQL для управления данными, обеспечивая высокую целостность
+                </p>
+                <div class="db-features">
+                    <div class="db-feature">
+                        <strong>Преимущества:</strong>
+                        <ul>
+                            <li>Строгая структура данных</li>
+                            <li>ACID транзакции</li>
+                            <li>Высокая целостность данных</li>
+                            <li>Стандартизированный язык запросов</li>
+                        </ul>
+                    </div>
+                    <div class="db-feature">
+                        <strong>Применение:</strong>
+                        <ul>
+                            <li>Финансовые системы</li>
+                            <li>ERP системы</li>
+                            <li>Транзакционные приложения</li>
+                            <li>Системы с критичной целостностью</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="db-examples">
+                    <div class="db-example">
+                        <strong>MySQL</strong>
+                        <span>Популярная open-source БД</span>
+                    </div>
+                    <div class="db-example">
+                        <strong>PostgreSQL</strong>
+                        <span>Мощная объектно-реляционная БД</span>
+                    </div>
+                    <div class="db-example">
+                        <strong>MS SQL Server</strong>
+                        <span>Корпоративная БД от Microsoft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 10: Нереляционные БД -->
+    <section id="non-relational" class="section non-relational-section">
+        <div class="container">
+            <h2 class="section-title">Нереляционные базы данных</h2>
+            <div class="db-type-card">
+                <div class="db-type-header">
+                    <span class="db-checkmark">✓</span>
+                    <h3>NoSQL</h3>
+                </div>
+                <p class="db-description">
+                    Данные в гибких форматах, таких как документы, графы или ключ-значение, без строгой схемы
+                </p>
+                <div class="nosql-types">
+                    <div class="nosql-type">
+                        <div class="nosql-header">
+                            <strong>Ключ-значение</strong>
+                            <span class="nosql-name">Redis</span>
+                        </div>
+                        <p class="nosql-description">Хранение данных в виде пар ключ-значение. Идеально для кэширования и сессий.</p>
+                        <ul class="nosql-features">
+                            <li>Высокая производительность</li>
+                            <li>In-memory хранение</li>
+                            <li>Простота использования</li>
+                        </ul>
+                    </div>
+                    <div class="nosql-type">
+                        <div class="nosql-header">
+                            <strong>Документоориентированная</strong>
+                            <span class="nosql-name">MongoDB</span>
+                        </div>
+                        <p class="nosql-description">Хранение данных в виде документов (JSON-подобные структуры). Гибкая схема.</p>
+                        <ul class="nosql-features">
+                            <li>Гибкая структура данных</li>
+                            <li>Масштабируемость</li>
+                            <li>Быстрая разработка</li>
+                        </ul>
+                    </div>
+                    <div class="nosql-type">
+                        <div class="nosql-header">
+                            <strong>Графовая</strong>
+                            <span class="nosql-name">Neo4j</span>
+                        </div>
+                        <p class="nosql-description">Хранение данных в виде графов с узлами и связями. Для сложных отношений.</p>
+                        <ul class="nosql-features">
+                            <li>Сложные связи</li>
+                            <li>Графовые запросы</li>
+                            <li>Социальные сети, рекомендации</li>
+                        </ul>
+                    </div>
+                    <div class="nosql-type">
+                        <div class="nosql-header">
+                            <strong>Колоночная</strong>
+                            <span class="nosql-name">Cassandra</span>
+                        </div>
+                        <p class="nosql-description">Хранение данных в виде колонок. Для больших объемов и высокой доступности.</p>
+                        <ul class="nosql-features">
+                            <li>Горизонтальное масштабирование</li>
+                            <li>Высокая доступность</li>
+                            <li>Big Data приложения</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 11: СУБД -->
+    <section id="dbms" class="section dbms-section">
+        <div class="container">
+            <h2 class="section-title">СУБД</h2>
+            <p class="dbms-definition">
+                СУБД (система управления базами данных) — это программное обеспечение которое контролирует доступ 
+                к данным, хранящимся в базе данных и управляет ими.
+            </p>
+        </div>
+    </section>
+
+    <!-- Секция 12: UI/UX дизайн -->
+    <section id="uiux-intro" class="section uiux-intro-section">
+        <div class="container">
+            <h2 class="section-title">UI / UX дизайн</h2>
+            <p class="uiux-text">
+                Эти направления связаны и работают вместе для создания качественного, удобного и привлекательного 
+                цифрового продукта.
+            </p>
+        </div>
+    </section>
+
+    <!-- Секция 13: UI и UX -->
+    <section id="uiux-details" class="section uiux-details-section">
+        <div class="container">
+            <div class="uiux-grid">
+                <div class="uiux-card">
+                    <div class="uiux-badge">UI</div>
+                    <p class="uiux-subtitle">(User Interface)</p>
+                    <p class="uiux-description">отвечает за внешний вид интерфейсов</p>
+                    <div class="uiux-details">
+                        <h4>Основные задачи:</h4>
+                        <ul>
+                            <li>Визуальный дизайн элементов</li>
+                            <li>Цветовая палитра и типографика</li>
+                            <li>Создание иконок и графики</li>
+                            <li>Адаптивность интерфейса</li>
+                            <li>Стилизация компонентов</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uiux-card">
+                    <div class="uiux-badge">UX</div>
+                    <p class="uiux-subtitle">(User Experience)</p>
+                    <p class="uiux-description">отвечает за удобство и логику взаимодействия пользователя с системами</p>
+                    <div class="uiux-details">
+                        <h4>Основные задачи:</h4>
+                        <ul>
+                            <li>Исследование пользователей</li>
+                            <li>Прототипирование и wireframes</li>
+                            <li>Тестирование удобства</li>
+                            <li>Информационная архитектура</li>
+                            <li>Оптимизация пользовательских путей</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 14: Инструменты UI/UX -->
+    <section id="uiux-tools" class="section tools-section">
+        <div class="container">
+            <h2 class="section-title">Основные инструменты UI/UX дизайнера включают</h2>
+            <div class="tools-list">
+                <div class="tool-item">
+                    <div class="tool-icon">🎨</div>
+                    <div class="tool-content">
+                        <h3 class="tool-title">Макеты и прототипы</h3>
+                        <p class="tool-description">программы для создания макетов и прототипов, такие как Figma, Adobe XD и Sketch</p>
+                        <div class="tool-examples">
+                            <span class="tool-tag">Figma</span>
+                            <span class="tool-tag">Adobe XD</span>
+                            <span class="tool-tag">Sketch</span>
+                            <span class="tool-tag">InVision</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🤝</div>
+                    <div class="tool-content">
+                        <h3 class="tool-title">Совместная работа</h3>
+                        <p class="tool-description">инструменты для совместной работы и тестирования пользователей, например, Miro</p>
+                        <div class="tool-examples">
+                            <span class="tool-tag">Miro</span>
+                            <span class="tool-tag">Figma</span>
+                            <span class="tool-tag">Notion</span>
+                            <span class="tool-tag">Zeplin</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🖼️</div>
+                    <div class="tool-content">
+                        <h3 class="tool-title">Графический дизайн</h3>
+                        <p class="tool-description">инструменты для дизайна графики (Adobe Illustrator)</p>
+                        <div class="tool-examples">
+                            <span class="tool-tag">Adobe Illustrator</span>
+                            <span class="tool-tag">Photoshop</span>
+                            <span class="tool-tag">Affinity Designer</span>
+                            <span class="tool-tag">Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 15: Заключение -->
+    <section id="conclusion" class="section conclusion-section">
+        <div class="container">
+            <div class="conclusion-content">
+                <h2 class="section-title">Популярность IT-профессий</h2>
+                <p class="conclusion-text">
+                    Популярность IT-профессий растёт из-за глобальной тенденции цифровизации и растущего спроса 
+                    на специалистов в сфере информационных технологий.
+                </p>
+                <div class="conclusion-note">
+                    <p>
+                        Мощные текстовые редакторы, редакторы кода, инструменты по работе с большими данными 
+                        предлагаются специалистам работающим в сфере обработки и предоставления данных.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Спасибо за внимание</p>
+            <p class="footer-author">InfoFlow Guide | Курылёва А. Э.</p>
+        </div>
+    </footer>
+
+    <!-- Фиксированные стрелки навигации справа -->
+    <div class="fixed-nav-arrows">
+        <a href="#" class="fixed-arrow fixed-arrow-up" id="arrow-up" title="Наверх">↑</a>
+        <a href="#" class="fixed-arrow fixed-arrow-down" id="arrow-down" title="Вниз">↓</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
